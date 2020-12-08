@@ -1,24 +1,5 @@
-# vue-weather-app
+## vue kasir app
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+app kasir sederhana dibangun dengan vue js dan buefy
+demo bisa di lihat di
+#### https://kasir-vue.netlify.app/
