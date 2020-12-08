@@ -1,28 +1,34 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <main-component></main-component>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import main from "./components/main.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    "main-component": main,
+  },
+};
 </script>
 
 <style>
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@1,300&family=Sansita+Swashed:wght@300&display=swap");
+
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  width: 100%;
+  overflow-x: hidden;
+  min-height: 500px;
+  height: 100vh;
+  background-color: #f5f5f5;
+  /* background-color: #a32b2b; */
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: "Sansita Swashed", cursive;
 }
 </style>
